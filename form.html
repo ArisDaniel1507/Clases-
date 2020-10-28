@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIO</title>
+</head>
+<body>
+	<input type="text" id="nombres"><br>
+	<button onclick="mostrar()">Enviar</button>
+	<div id="mostrar"></div>
+</body>
+<script type="text/javascript">
+	function mostrar(){
+		var nombres = document.getElementById("nombres").value;
+		document.getElementsById("mostrar").innerHTML = nombres;
+	}
+</script>
+</html>
